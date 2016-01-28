@@ -1,0 +1,82 @@
+.wrapper_wide {
+  width: 90%;
+  margin: 0 auto; }
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto; }
+
+.wrapper_skinny {
+  width: 60%;
+  margin: 0 auto; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.button {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none; }
+
+.button_highlight {
+  background: #00b2b3;
+  transition: background .4s ease-in-out; }
+  .button_highlight:hover {
+    background: #008c8d; }
+
+.button_white {
+  background: #ffffff;
+  color: black;
+  transition: background .4s ease-in-out; }
+  .button_white:hover {
+    background: #ececec; }
+
+#background {
+  background-image: url("../images/city.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center; }
+  #background header {
+    padding: 1.5rem 0 2rem 0;
+    background-color: rgba(0, 0, 0, 0.5); }
+    #background header #logo {
+      float: left;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #ffffff;
+      text-decoration: none;
+      letter-spacing: 2.5px; }
+    #background header nav {
+      float: right; }
+      #background header nav ul {
+        list-style: none;
+        margin: 0; }
+        #background header nav ul li {
+          display: inline;
+          margin-left: 2.5rem; }
+          #background header nav ul li a {
+            color: #ffffff;
+            text-decoration: none; }
+            #background header nav ul li a:hover {
+              color: #ececec; }
+  #background h1 {
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 10rem 0 3rem 0; }
+  #background .button {
+    min-width: 130px;
+    display: inline-block;
+    margin: .5rem 2.5% 0 2.5%; }
+
+/*# sourceMappingURL=application.css.map */
