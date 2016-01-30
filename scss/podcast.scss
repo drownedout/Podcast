@@ -1,0 +1,36 @@
+#podcasts {
+	padding-bottom: 3rem;
+	ul {
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+		li {
+			width: 31%;
+			float: left;
+			margin: 0 1% 2rem 1%;
+			color: $dark;
+			img {
+				text-align: center;
+				width: 80%;
+				max-width: 80%;
+				-webkit-box-shadow: 10px 15px 40px -8px rgba(0,0,0,0.55);
+				box-shadow: 10px 15px 40px -8px rgba(0,0,0,0.55);
+			}
+			.podcast_content {
+				padding: 1rem 7.5%;
+				h2 {
+					margin: 0;
+					font-weight: 700;
+				}
+			}
+			&:hover{
+				img{
+					opacity: .7;
+				}
+				h2{
+					color: lighten($highlight, 5%);
+				}
+			}
+		}
+	}
+}
