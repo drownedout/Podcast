@@ -47,6 +47,7 @@
   padding: 3rem 0; }
   #podcast_show #episodes ul {
     list-style: none;
+    text-align: center;
     padding-left: 0; }
     #podcast_show #episodes ul li {
       padding-bottom: 1.5rem;
