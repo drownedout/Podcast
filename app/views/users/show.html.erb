@@ -1,0 +1,60 @@
+<div id="podcast_show">
+	<div id="show_banner">
+		<div class="wrapper_skinny">
+			<h1><%= @user.title %></h1>
+			<p class="description">
+				<%= @user.description %>
+			</p>
+			<% unless @user.itunes.blank? %>
+				<a href="<%= @user.itunes %>" class="subscribe_link">Itunes</a>
+			<% end %>
+			<% unless @user.stitcher.blank? %>
+				<a href="<%= @user.stitcher %>" class="subscribe_link">Stitcher</a>
+			<% end %>
+			<% unless @user.podbay.blank? %>
+				<a href="#" class="subscribe_link">Podbay</a>
+			<% end %>
+		</div>
+	</div>
+
+	<div id="breadcrumb">
+		<a href="">
+			All Podcasts
+			<span>/</span>
+			Podcast
+		</a>  
+	</div>
+
+	<div id="episodes">
+		<div class="wrapper_skinny">
+			<ul class="clearfix">
+				<li class="clearfix">
+					<div class="episode_thumbnail">
+						<a href="">
+							<img src="images/city.jpeg">
+						</a>
+					</div>
+					<div class="episode_overview">
+						<h2><a href="#">Title</a></h2>
+						<p class="description">
+							Blahhhh
+						</p>
+					</div>
+				</li> 
+				<li class="clearfix">
+					<div class="episode_thumbnail">
+						<a href="">
+							<img src="images/city.jpeg">
+						</a>
+					</div>
+					<div class="episode_overview">
+						<h2><a href="#">Title</a></h2>
+						<p class="description">
+							Blahhhh
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>		
+	</div>
+</div>
