@@ -1,0 +1,50 @@
+#background {
+	background-image: image-url('city.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	header {
+		padding: 1.5rem 0 2rem 0;
+		background-color: rgba(0,0,0,0.5);
+		#logo {
+			float: left;
+			text-transform: uppercase;
+			font-weight: 700;
+			color: $white;
+			text-decoration: none;
+			letter-spacing: 2.5px;
+		}
+		nav {
+			float: right;
+			ul {
+				list-style: none;
+				margin: 0;
+				li {
+					display: inline;
+					margin-left: 2.5rem;
+					a {
+						color: $white;
+						text-decoration: none;
+						&:hover {
+							color: darken($white, 7.5%);
+						}
+					}
+				}
+			}
+		}
+	}
+	h1 {
+		color: $white;
+		font-size: 3.5rem;
+		font-weight: 600;
+		letter-spacing: 1px;
+		margin: 10rem 0 3rem 0;
+
+	}
+	.button {
+		min-width: 130px;
+		display: inline-block;
+		margin: .5rem 2.5% 0 2.5%;
+	}
+}
